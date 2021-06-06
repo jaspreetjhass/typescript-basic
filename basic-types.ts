@@ -69,4 +69,7 @@ interface Developer{
     codeOutput: () => string
 }
 
-var dev:Developer = {skill:'java',salary:90909,codeOutput: () => 'success'}
+var output = 'success'
+var dev:Developer = {skill:'java',salary:90909,codeOutput: () => output}
+
+var dev:Developer = {skill:'java',salary:90909,codeOutput: () => 'failure'}
